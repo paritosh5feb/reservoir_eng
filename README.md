@@ -11,4 +11,9 @@ A  simple QT C++ based Desktop Application for Reservoir Engineering for Explora
 ### Building
 The project has been written on Linux (Debian) 64 bit, and is cross compiled for Windows 64 bit.
 To build this project:
-1. ```git clone```
+1. Open the terminal
+2. ```cd ~/```
+3. ```git clone https://github.com/paritosh5feb/reservoir_eng.git```
+4. For the "build.sh" to run successfully, you will need to clone and build [https://github.com/mxe/mxe](MXE Cross compiler) tool-chain.
+5. Run ```./build.sh```
+6. On Windows, the project can be simply opened in QT Creator by double clicking on the "reservoir.pro" file.

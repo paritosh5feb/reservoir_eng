@@ -17,3 +17,6 @@ To build this project:
 4. For the "build.sh" to run successfully, you will need to clone and build [https://github.com/mxe/mxe] (MXE Cross compiler) tool-chain.
 5. Run ```./build.sh```
 6. On Windows, the project can be simply opened in QT Creator by double clicking on the "reservoir.pro" file.
+
+### Execution
+![Imgur](https://i.imgur.com/KqjT55V.png)

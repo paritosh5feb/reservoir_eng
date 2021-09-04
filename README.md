@@ -7,3 +7,8 @@ A  simple QT C++ based Desktop Application for Reservoir Engineering for Explora
 3. Subsequently, one of the two dialog boxes is loaded depending upon the action taken by the user in MainWindow.
 
 ![Imgur](https://i.imgur.com/JX8dmFO.png)
+
+### Building
+The project has been written on Linux (Debian) 64 bit, and is cross compiled for Windows 64 bit.
+To build this project:
+1. ```git clone```

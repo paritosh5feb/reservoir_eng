@@ -1,5 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
+#include "eff_phase_sat_calc_diag.h"
+#include "rel_per_calc_diag.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)

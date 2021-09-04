@@ -25,3 +25,19 @@ void MainWindow::on_rb2_2_phase_rel_per_calcs_clicked()
 {
     per_calcs = 2;
 }
+
+void MainWindow::on_proceed_clicked()
+{
+    if(per_calcs==1)
+    {
+       eff_phase_sat_calc_diag w;
+       w.setModal(true);
+       w.exec();
+    }
+    if(per_calcs==2)
+    {
+        rel_per_calc_diag w;
+        w.setModal(true);
+        w.exec();
+    }
+}
